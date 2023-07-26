@@ -1,5 +1,4 @@
 import Err from "../components/error";
-import { YoutubeProps, YoutubeData } from "customTypes";
 import Template1 from "../components/template1";
 import Template2 from "../components/template2";
 import Template3 from "../components/template3";
