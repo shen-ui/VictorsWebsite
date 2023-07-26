@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import Video from "../assets/test.webm";
 import Muted from "../assets/icons/Muted.svg"
 import Unmuted from "../assets/icons/volumeOn.svg"
+import Music from "../assets/test.mp3";
 import "../styles/template1.scss";
 
 function Template1() {
@@ -45,19 +46,18 @@ function Template1() {
     }, [])
     return windowSize;
     */
-    let [muted, setMuted] = useState(true);
-    let videoRef = useRef<HTMLVideoElement>(null);
 
-    function setIcon(){
-        if(muted) return Muted;
-        else return Unmuted;
-    }
-
-    function videoHandler(){
+    /** Extra code we might need to get audio from video later.
+     *  replace useState and useRef
+     * 
+     *  const [muted, setIsMuted] = useState(false);
+        let videoRef = useRef<HTMLVideoElement>(null);
+     *     function videoHandler(){
             if(videoRef.current?.muted ==  true && muted == true){
                 videoRef.current.muted = false;
-                videoRef.current.volume = .5;
+                videoRef.current.volume = 1;
                 setMuted(muted = !muted);
+                console.log('test')
                 
             }
             else if(videoRef.current?.muted == false && muted == false) {
@@ -65,6 +65,25 @@ function Template1() {
                 setMuted(muted = !muted)
             }
     }
+     */
+    const [isPlaying, setIsPlaying] = useState(false);
+    let musicRef = useRef<HTMLAudioElement>(null);
+
+    function setIcon(){
+        if(isPlaying) return Unmuted;
+        else return Muted;
+    }
+
+    function videoHandler(){
+        if (isPlaying) {
+            musicRef.current?.pause();
+        }
+        else {
+            musicRef.current?.play();
+        }
+        setIsPlaying(!isPlaying);
+    }
+
     return (
         <div className="container">
             <div className="overlay">
@@ -74,12 +93,17 @@ function Template1() {
             </div>
             <video 
             src={Video}
-            ref={videoRef}
                 autoPlay
                 loop
                 muted
             >
             </video>
+            <audio
+                ref={musicRef}
+                preload="auto"
+                src={Music}
+            >
+            </audio>
         </div>
     )
 }
