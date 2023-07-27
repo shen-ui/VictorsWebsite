@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/VictorsWebsite/static/css/main.94325d99.css",
-    "main.js": "/VictorsWebsite/static/js/main.2c315bb0.js",
-    "static/js/787.f737993d.chunk.js": "/VictorsWebsite/static/js/787.f737993d.chunk.js",
-    "static/media/DSC03029.png": "/VictorsWebsite/static/media/DSC03029.f7465d7299e8b7500f1e.png",
-    "static/media/headshot.jpg": "/VictorsWebsite/static/media/headshot.812115a8fe757f12a651.jpg",
-    "static/media/test.webm": "/VictorsWebsite/static/media/test.a8c3e4136ae85d0cdf9f.webm",
-    "static/media/test.mp3": "/VictorsWebsite/static/media/test.88a0bf7c4115251aa494.mp3",
-    "static/media/Gotham-Medium.otf": "/VictorsWebsite/static/media/Gotham-Medium.64243e219e4c35e62282.otf",
-    "static/media/Gotham-Light.otf": "/VictorsWebsite/static/media/Gotham-Light.df38f0bfbbd796768b84.otf",
-    "static/media/Bodoni Bold Cyrillic.otf": "/VictorsWebsite/static/media/Bodoni Bold Cyrillic.2541886dafa5b3c4ca01.otf",
-    "static/media/Bodoni Cyrillic.otf": "/VictorsWebsite/static/media/Bodoni Cyrillic.e9e28398a041f58b2d64.otf",
-    "static/media/ofLogo.png": "/VictorsWebsite/static/media/ofLogo.de9d014fc87461ea08cb.png",
-    "static/media/banner.png": "/VictorsWebsite/static/media/banner.7c5b48057ba64bfc6307.png",
-    "index.html": "/VictorsWebsite/index.html",
-    "static/media/volumeOn.svg": "/VictorsWebsite/static/media/volumeOn.b96d8a5a52cfbd39c3987ff6dcaef326.svg",
-    "static/media/Muted.svg": "/VictorsWebsite/static/media/Muted.7938143ed35028c3227b9251f211e815.svg",
-    "main.94325d99.css.map": "/VictorsWebsite/static/css/main.94325d99.css.map",
-    "main.2c315bb0.js.map": "/VictorsWebsite/static/js/main.2c315bb0.js.map",
-    "787.f737993d.chunk.js.map": "/VictorsWebsite/static/js/787.f737993d.chunk.js.map"
+    "main.css": "/basedwebsite/static/css/main.885fc16d.css",
+    "main.js": "/basedwebsite/static/js/main.9f39b0de.js",
+    "static/js/787.e45732a9.chunk.js": "/basedwebsite/static/js/787.e45732a9.chunk.js",
+    "static/media/DSC03029.png": "/basedwebsite/static/media/DSC03029.f7465d7299e8b7500f1e.png",
+    "static/media/headshot.jpg": "/basedwebsite/static/media/headshot.812115a8fe757f12a651.jpg",
+    "static/media/test.webm": "/basedwebsite/static/media/test.a8c3e4136ae85d0cdf9f.webm",
+    "static/media/test.mp3": "/basedwebsite/static/media/test.88a0bf7c4115251aa494.mp3",
+    "static/media/Gotham-Medium.otf": "/basedwebsite/static/media/Gotham-Medium.64243e219e4c35e62282.otf",
+    "static/media/Gotham-Light.otf": "/basedwebsite/static/media/Gotham-Light.df38f0bfbbd796768b84.otf",
+    "static/media/Bodoni Bold Cyrillic.otf": "/basedwebsite/static/media/Bodoni Bold Cyrillic.2541886dafa5b3c4ca01.otf",
+    "static/media/Bodoni Cyrillic.otf": "/basedwebsite/static/media/Bodoni Cyrillic.e9e28398a041f58b2d64.otf",
+    "static/media/ofLogo.png": "/basedwebsite/static/media/ofLogo.de9d014fc87461ea08cb.png",
+    "static/media/banner.png": "/basedwebsite/static/media/banner.7c5b48057ba64bfc6307.png",
+    "index.html": "/basedwebsite/index.html",
+    "static/media/volumeOn.svg": "/basedwebsite/static/media/volumeOn.b96d8a5a52cfbd39c3987ff6dcaef326.svg",
+    "static/media/Muted.svg": "/basedwebsite/static/media/Muted.7938143ed35028c3227b9251f211e815.svg",
+    "main.885fc16d.css.map": "/basedwebsite/static/css/main.885fc16d.css.map",
+    "main.9f39b0de.js.map": "/basedwebsite/static/js/main.9f39b0de.js.map",
+    "787.e45732a9.chunk.js.map": "/basedwebsite/static/js/787.e45732a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94325d99.css",
-    "static/js/main.2c315bb0.js"
+    "static/css/main.885fc16d.css",
+    "static/js/main.9f39b0de.js"
   ]
 }
