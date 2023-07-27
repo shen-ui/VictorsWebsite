@@ -5,18 +5,25 @@ declare module 'customTypes' {
         width: number
     }
     type snippetType = {
+        publishedAt: string
         channelId: string,
-        channelTitle: string,
+        title: string,
         description: string,
-        liveBroadcastContent: string,
         publishTime: string,
-        publishedAt: string,
         thumbnails: {
             default: thumbnails,
             high: thumbnails,
             medium: thumbnails,
         },
-        title: string
+        channelTitle: string,
+        playlistId: string,
+        position: number,
+        resourceId: {
+            kind: string,
+            videoId: string
+        }
+        videoOwnerChannelTitle: string,
+        videoOwnerChannelId: string,
         
     }
     type itemType = {

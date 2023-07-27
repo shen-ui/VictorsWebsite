@@ -1,5 +1,5 @@
-import { itemType } from "customTypes";
-function Video(props: {key: string, video: itemType}){
+import { itemType, snippetType } from "customTypes";
+function Video(props: {key: string, snippet: snippetType, listId: string}){
     /*
         Note: A well known problem of the Youtube API is chacters returned from the api
               results in HTML characters. Some solutions to this problem is:
@@ -10,9 +10,9 @@ function Video(props: {key: string, video: itemType}){
     const unescape = (str: string) => {
         return str.replace(/&#(\d+);/g, (match, dec) => String.fromCharCode(dec))
     }
-    let {kind, etag, id, snippet} = props.video;
-    let url:string = `https://www.youtube.com/embed/${id.videoId};`
-    snippet.title = unescape(snippet.title);
+
+    let url:string = `https://www.youtube.com/embed/watch?v=${props.snippet.resourceId.videoId}&index=${props.snippet.position+1}&list=${props.listId}`
+    props.snippet.title = unescape(props.snippet.title);
     return (
         <li key="1" >
             <iframe className="video"
@@ -22,8 +22,8 @@ function Video(props: {key: string, video: itemType}){
                 allow="encrypted-media; picture-in-picture;"
             />
             <section className="description-box">
-                <h2 className="title-text">{snippet.title}</h2>
-                <p className="description-text">{snippet.description}</p>
+                <h2 className="title-text">{props.snippet.title}</h2>
+                <p className="description-text">{props.snippet.description}</p>
             </section>
         </li>
     )
