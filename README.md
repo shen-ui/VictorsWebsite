@@ -4,7 +4,7 @@ This is a project designated for Victor Xie.
 UI developed by Lauren.
 Developement by Shen.
 
-This project was created with:
+This project was created with:\
 React.js\
 Node.js\
 Swiper.js\
