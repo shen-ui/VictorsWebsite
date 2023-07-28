@@ -17,7 +17,7 @@ function handleChange(){
     return (
         <div className="template5">
             <div className="container">
-                <img className="contact-icon" src={Icon}/>
+                <img className="contact-icon" alt="banner" src={Icon}/>
                 <form className="contact-form" method="post" action="mailto:peterhuiwang1995@gmail.com">
                     <div className="first-layer">
                         <input className="form-name" placeholder="Name" id="input" type="text"/>

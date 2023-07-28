@@ -7,7 +7,7 @@ function Template2(){
             <h2 id="name">Victor Xie</h2>
             <h5 id="title">Musician & Pianist</h5>
             <div className="content-container2">
-                <img className="avatar" src={Avatar}/>
+                <img className="avatar" alt="portrait" src={Avatar}/>
                 
                 <div className="bio">
                     <h5 className="bio-head">About Me</h5>

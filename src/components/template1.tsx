@@ -88,7 +88,7 @@ function Template1() {
         <div className="container">
             <div className="overlay">
                 <h1><b>VICTOR XIE</b> <big>|</big>  Performer & Composer</h1>
-                <img src={setIcon()} className="volume" onClick={() => videoHandler()}/>
+                <img src={setIcon()} alt="volume" className="volume" onClick={() => videoHandler()}/>
 
             </div>
             <video 

@@ -1,4 +1,4 @@
-import { itemType, snippetType } from "customTypes";
+import { snippetType } from "customTypes";
 function Video(props: {key: string, snippet: snippetType, listId: string}){
     /*
         Note: A well known problem of the Youtube API is chacters returned from the api
@@ -15,7 +15,7 @@ function Video(props: {key: string, snippet: snippetType, listId: string}){
     props.snippet.title = unescape(props.snippet.title);
     return (
         <li key="1" >
-            <iframe className="video"
+            <iframe title={props.snippet.title} className="video"
                 width={375}
                 height={210}
                 src={url}
